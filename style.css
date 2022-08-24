@@ -33,3 +33,16 @@ footer {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
 }
+
+/* Øvelse 2A */
+header:nth-child(1) {
+  color: red;
+}
+
+article:nth-child(1) {
+  color: red;
+}
+
+article:first-of-type + article {
+  color: blue;
+}
